@@ -8,6 +8,7 @@ module Bigcommerce
       include Bigcommerce::ResourceActions.new uri: 'catalog/products/%d'
 
       property :data
+      property :meta
     end
   end
 end
